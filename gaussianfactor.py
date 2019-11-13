@@ -47,5 +47,4 @@ def gaussian_factors(z):
     #turn z into a gaussian integer and then add it to the factors list
     z_factors.insert(0, complex(round(z.real), round(z.imaginary)))
 
-    print(z_factors)
     return z_factors

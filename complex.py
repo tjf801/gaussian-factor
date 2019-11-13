@@ -44,7 +44,7 @@ class complex():
     def __float__(self):
         return float(self.real)
     
-    def __complex__(self): #TODO this is so awkward
+    def __complex__(self): #TODO
         pass
 
 
@@ -117,7 +117,7 @@ class complex():
         return self - (other * (self//other))
     
     def __pow__(self, other, modulo=None):
-        # fuck
+        # TODO
         if modulo is None:
             if isinstance(other, int):
                 temp = complex(self.real, self.imaginary)
@@ -137,13 +137,17 @@ class complex():
         return self * other
     
     def __rfloordiv__(self, other):
+        #TODO
         pass
 
     def __rtruediv__(self, other):
+        #TODO
         pass
 
     def __rmod__(self, other):
+        #TODO
         pass
 
     def __rpow__(self, other, modulo=None):
+        #TODO
         pass
